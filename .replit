@@ -1,1 +1,4 @@
-hallo
+language="nodejs"
+run="npm install && pm2 start run.js && pm2 save && pm2 logs"
+entrypoint = "run.js"
+hidden = ["package-lock.json"]
